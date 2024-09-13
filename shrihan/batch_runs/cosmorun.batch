@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name fiducial-cuts
+#SBATCH --partition=caslake
+#SBATCH --account=pi-chihway
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=2
+#SBATCH --time=30:00:00
+#SBATCH --mail-user=shrihan@uchicago.edu
+#SBATCH --mail-type=BEGIN,END
+
+
+conda activate /project/chihway/envs/cosmosis3
+cd ~/weaklens/cosmolib/
+
+export OMP_NUM_THREADS=2
+mpirun -n 48 cosmosis shrihan/ini_files/des-y3-shear.ini
