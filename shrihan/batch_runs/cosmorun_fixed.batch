@@ -1,8 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name fiducial-cuts
 #SBATCH --partition=caslake
+#SBATCH --output=polychord-fidA.out
 #SBATCH --account=pi-chihway
-#SBATCH --ntasks=96
+#SBATCH --ntasks=48
 #SBATCH --cpus-per-task=2
 #SBATCH --time=30:00:00
 #SBATCH --mail-user=shrihan@uchicago.edu
