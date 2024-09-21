@@ -9,7 +9,7 @@
 #SBATCH --mail-user=shrihan@uchicago.edu
 #SBATCH --mail-type=BEGIN,END
 
-
+source /home/shrihan/.bash_profile
 conda activate /project/chihway/envs/cosmosis3
 cd ~/weaklens/cosmolib/
 
