@@ -34,7 +34,14 @@ def cov_order(covfile):
 
 
 orders = {s: cov_order(f) for s, f in COVFILES.items()}
-n_ok = n_bad = 0
+
+# Data vectors read by some ini (2PT_FILE = shrihan/<dir>/<file>.fits); others are leftovers no chain uses.
+used = set()
+for ini in glob.glob("ini_files/*.ini"):
+    for line in open(ini):
+        if line.startswith("2PT_FILE"):
+            used.add(line.split("=", 1)[1].strip().replace("shrihan/", "", 1))
+n_ok = n_bad = n_unused = 0
 print(f"{'result':8s} {'rows out of place':>18s}   file")
 for fp in sorted(glob.glob("*_2pt*/*.fits")):
     survey = fp.split("_")[0]
@@ -54,11 +61,15 @@ for fp in sorted(glob.glob("*_2pt*/*.fits")):
             if order[off + i] != (d["BIN1"][i], d["BIN2"][i]) or d["ANGBIN"][i] != i % NANG:
                 bad += 1
     ok = bad == 0
+    in_use = fp in used
     n_ok += ok
-    n_bad += not ok
-    print(f"{'ok' if ok else 'WRONG':8s} {f'{bad}/{2 * n}':>18s}   {fp}")
+    n_bad += (not ok) and in_use
+    n_unused += (not ok) and not in_use
+    label = "ok" if ok else ("WRONG" if in_use else "unused")
+    print(f"{label:8s} {f'{bad}/{2 * n}':>18s}   {fp}" + ("" if ok or in_use else "   (wrong order, but no ini reads it)"))
 
 print()
-print(f"{n_ok} data vectors match their covariance order, {n_bad} do not.")
-print("Conclusion:", "all good, safe to run chains." if n_bad == 0 else
-      "rerun the cosmomake notebooks for the WRONG files before running chains.")
+print(f"{n_ok} data vectors match their covariance order; {n_bad} used by an ini do not; "
+      f"{n_unused} leftover files no ini reads are out of order.")
+print("Conclusion:", "all data vectors used by the inis are in order, safe to run chains." if n_bad == 0 else
+      "rebuild the WRONG files (python make_lsst_2pt.py) before running chains.")
