@@ -1,0 +1,150 @@
+
+=== LSSTY1_fiducial2pt_A_2pt
+  covariance: concatenated 465 CosmoCov files -> covdata_lssty1.txt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY1/fiducial2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY1_fiducial2pt_A_2pt/LSSTY1_fiducial2pt_A_2pt.fits
+
+=== LSSTY1_psfimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY1/psfimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY1_psfimprint2pt_A_2pt/LSSTY1_psfimprint2pt_A_2pt.fits
+
+=== LSSTY1_respimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY1/respimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY1_respimprint2pt_A_2pt/LSSTY1_respimprint2pt_A_2pt.fits
+
+=== LSSTY1_dcrimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY1/dcrimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY1_dcrimprint2pt_A_2pt/LSSTY1_dcrimprint2pt_A_2pt.fits
+
+=== LSSTY1_csimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY1/csimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY1_csimprint2pt_A_2pt/LSSTY1_csimprint2pt_A_2pt.fits
+
+=== LSSTY5_fiducial2pt_A_2pt
+  covariance: concatenated 465 CosmoCov files -> covdata_lssty5.txt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY5/fiducial2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY5_fiducial2pt_A_2pt/LSSTY5_fiducial2pt_A_2pt.fits
+
+=== LSSTY5_psfimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY5/psfimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY5_psfimprint2pt_A_2pt/LSSTY5_psfimprint2pt_A_2pt.fits
+
+=== LSSTY5_respimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY5/respimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY5_respimprint2pt_A_2pt/LSSTY5_respimprint2pt_A_2pt.fits
+
+=== LSSTY5_dcrimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY5/dcrimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY5_dcrimprint2pt_A_2pt/LSSTY5_dcrimprint2pt_A_2pt.fits
+
+=== LSSTY5_csimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY5/csimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY5_csimprint2pt_A_2pt/LSSTY5_csimprint2pt_A_2pt.fits
+
+=== LSSTY10_fiducial2pt_A_2pt
+  covariance: concatenated 465 CosmoCov files -> covdata_lssty10.txt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/fiducial2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_fiducial2pt_A_2pt/LSSTY10_fiducial2pt_A_2pt.fits
+
+=== LSSTY10_psfimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/psfimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_psfimprint2pt_A_2pt/LSSTY10_psfimprint2pt_A_2pt.fits
+
+=== LSSTY10_respimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/respimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_respimprint2pt_A_2pt/LSSTY10_respimprint2pt_A_2pt.fits
+
+=== LSSTY10_dcrimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/dcrimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_dcrimprint2pt_A_2pt/LSSTY10_dcrimprint2pt_A_2pt.fits
+
+=== LSSTY10_csimprint2pt_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/csimprint2pt/A/results
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_csimprint2pt_A_2pt/LSSTY10_csimprint2pt_A_2pt.fits
+
+=== LSSTY1_dcrimprint2pt3x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY1/dcrimprint2pt/A/results, scaling 3.0
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY1_dcrimprint2pt3x_A_2pt/LSSTY1_dcrimprint2pt3x_A_2pt.fits
+
+=== LSSTY1_dcrimprint2pt9x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY1/dcrimprint2pt/A/results, scaling 9.0
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY1_dcrimprint2pt9x_A_2pt/LSSTY1_dcrimprint2pt9x_A_2pt.fits
+
+=== LSSTY10_respimprint2pt3x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/respimprint2pt/A/results, scaling 3.0
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_respimprint2pt3x_A_2pt/LSSTY10_respimprint2pt3x_A_2pt.fits
+
+=== LSSTY10_csimprint2pt3x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/csimprint2pt/A/results, scaling 3.0
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_csimprint2pt3x_A_2pt/LSSTY10_csimprint2pt3x_A_2pt.fits
+
+=== LSSTY10_dcrimprint2pt3x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/dcrimprint2pt/A/results, scaling 3.0
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_dcrimprint2pt3x_A_2pt/LSSTY10_dcrimprint2pt3x_A_2pt.fits
+
+=== LSSTY10_dcrimprint2pt9x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/dcrimprint2pt/A/results, scaling 9.0
+  row order matches the covariance
+  new file
+  wrote LSSTY10_dcrimprint2pt9x_A_2pt/LSSTY10_dcrimprint2pt9x_A_2pt.fits
+
+=== LSSTY10_psfimprint2ptrn_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/psfimprint2pt/A/results, scaling ('rn', 1.0)
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_psfimprint2ptrn_A_2pt/LSSTY10_psfimprint2ptrn_A_2pt.fits
+
+=== LSSTY10_psfimprint2ptrn3x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/psfimprint2pt/A/results, scaling ('rn', 3.0)
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_psfimprint2ptrn3x_A_2pt/LSSTY10_psfimprint2ptrn3x_A_2pt.fits
+
+=== LSSTY10_psfimprint2ptrn9x_A_2pt
+  input: /home/shrihan/weaklens/clean_sims/LSSTY10/psfimprint2pt/A/results, scaling ('rn', 9.0)
+  row order matches the covariance
+  values identical to the old file (only the row order changed)
+  wrote LSSTY10_psfimprint2ptrn9x_A_2pt/LSSTY10_psfimprint2ptrn9x_A_2pt.fits
+
+24 of 24 data vectors written.
+Conclusion: all built and in covariance order.
